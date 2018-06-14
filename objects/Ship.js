@@ -9,7 +9,7 @@ function Ship(team) {
     self.size = 60;
     self.speed = 8;
     self.team = team;
-    self.img = loadImage("../img/ship.png");
+    self.img = loadImage("/SpaceBlasters/img/ship.png");
     self.canShoot = false;
     self.delay = 200;
      

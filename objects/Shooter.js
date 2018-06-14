@@ -7,7 +7,7 @@ function Shooter(startingX, startingY, team) {
     self.size = 80;
     self.speed = 1;
     self.team = team;
-    self.img = loadImage("../img/UFO.png");
+    self.img = loadImage("/SpaceBlasters/img/UFO.png");
     self.bulletSpeed = 7;
     self.canShoot = true;
     self.delay = 1000;

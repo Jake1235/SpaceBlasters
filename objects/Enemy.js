@@ -7,7 +7,7 @@ function Enemy(startingX, startingY, team) {
     self.size = 40;
     self.speed = 3;
     self.team = team;
-    self.img = loadImage("../img/UFO.png");
+    self.img = loadImage("/SpaceBlasters/img/UFO.png");
 
     self.isColliding = function (other) {
         // the distance

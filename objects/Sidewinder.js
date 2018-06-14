@@ -7,7 +7,7 @@ function Sidewinder(startingX, startingY, team) {
     self.size = 40;
     self.speed = 2;
     self.team = team;
-    self.img = loadImage("../img/UFO.png");
+    self.img = loadImage("/SpaceBlasters/img/UFO.png");
 
     self.control = function () {
         self.x += self.speed;
